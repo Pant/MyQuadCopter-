@@ -26,4 +26,6 @@ This QuadCopter isn't a usual one. This QuadCopter have the following features:
 16. Several Cameras are attached to the body; connected to the Rpi through USB.
 17. Cameras record video of the operation in a usb stick connected to Rpi.
 18. Video output of Cameras is sent to the client on demand (if the client asks for it) through the web server (running on the Rpi).
-19. A Gyroscope + Accelerometer is attached the body connected to the Rpi. The Rpi Handles the stabilization of the Drone. The Data are being saved with time stamps for latter research.
+19. A Gyroscope + Accelerometer is attached the body connected to the Rpi. The Rpi Handles the stabilization of the Drone. The Data are being saved with time stamps for latter research. Data are being sent to the clien through the web server.
+20. An altitude sensor (BMP085) connected to the Arduino. Data are being sent to the clien through the web server.
+21. A GPS module connected to the Arduino. Data are being sent to the clien through the web server.
